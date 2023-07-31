@@ -1,0 +1,89 @@
+.home {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.8em;
+  flex: 1;
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+
+    .intro {
+      font-size: 2em;
+      font-family: 'Lora', serif;
+
+    }
+
+    .name {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Poppins', sans-serif;
+      max-height: 10vw;
+
+
+      .txt {
+        font-size:9em;
+        margin-top: 0em;
+        text-align: center;
+        filter: drop-shadow(0 6px 0 #766fa0);
+        background: linear-gradient(var(--primary), var(--secondary));
+        -webkit-background-clip:  text;
+        background-clip: text;
+        color: transparent;
+      }
+    }
+
+    .stack {
+      position: relative;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      
+
+      b {
+        background: linear-gradient(var(--primary), var(--secondary));
+        -webkit-background-clip:  text;
+        background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+
+  .profile-img {
+    margin-top: 5vw;
+    margin-left: 4vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    aspect-ratio: 1;
+    background-color: var(--primary);
+    border-radius: 30px;
+    overflow:hidden;
+    cursor: pointer;
+    filter: drop-shadow(10px 20px 10px rgba(0,0,0,0.377));
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.3s ease;
+
+      &:hover {
+        scale:1.05;
+      }
+    }
+
+
+
+  }
+}

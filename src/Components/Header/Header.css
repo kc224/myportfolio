@@ -1,0 +1,62 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.5em 3em;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  flex: 1;
+}
+header .logo img {
+  height: 6vw;
+}
+header .logo h1 {
+  font-size: 1.5vw;
+}
+header .logo h1 span {
+  background: BLACK;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+header nav {
+  flex: 1;
+}
+header nav ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 3vw;
+  padding: 0.5vw 0vw;
+}
+header nav ul li {
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul li.active a {
+  color: white;
+}
+header nav ul .indicator {
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  background-color: var(--primary);
+  border-radius: 1vmin;
+  translate: -15px;
+  transition: 0.2s ease-out;
+}/*# sourceMappingURL=Header.css.map */

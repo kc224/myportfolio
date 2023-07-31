@@ -1,0 +1,70 @@
+.home {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.8em;
+  flex: 1;
+}
+.home .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.home .details .intro {
+  font-size: 2em;
+}
+.home .details .name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: raleway;
+}
+.home .details .name .txt {
+  font-size: 9em;
+  margin-top: 0em;
+  text-align: center;
+  filter: drop-shadow(0 6px 0 #766fa0);
+  background: linear-gradient(var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.home .details .stack {
+  position: relative;
+}
+.home .details .stack b {
+  background: linear-gradient(var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.home .profile-img {
+  margin-top: 3vw;
+  margin-left: 4vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 30vw;
+  aspect-ratio: 1;
+  background-color: var(--primary);
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.377));
+}
+.home .profile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.3s ease;
+}
+.home .profile-img img:hover {
+  scale: 1.05;
+}/*# sourceMappingURL=Home.css.map */
