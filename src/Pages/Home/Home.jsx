@@ -12,7 +12,7 @@ const Home = () => {
           </div>
 
           <div className="stack">
-            FULL-STACK <b>DEVELOPER</b>
+            WEBSITE CURRENTLY <b>UNDER CONSTRUCTION</b>
           </div>
         </div>
       </div>
