@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  margin-top: 0.8em;
+  margin-top: 10rem;
   flex: 1;
 }
 .home .details {
@@ -13,9 +13,10 @@
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+  padding-top: 10rem;
 }
 .home .details .intro {
-  font-size: 2em;
+  font-size: 3em;
 }
 .home .details .name {
   position: relative;

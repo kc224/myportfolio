@@ -1,6 +1,7 @@
 import './Header.scss';
 import logo from "../../assets/astronaut3.png"
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -47,10 +48,10 @@ const Header = () => {
         <ul>
           <div className="indicator"></div>
 
-          <li className = "active"><a href="#home">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experiences">Experiences</a></li>
+          <li className = "active"><Link to="/">Home</Link></li>
+          <li><Link to="/About">About</Link></li>
+          <li><Link to="/Projects">Projects</Link></li>
+          <li><Link to="/Experiences">Experiences</Link></li>
         </ul>
       </nav>
 
