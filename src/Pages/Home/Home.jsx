@@ -1,5 +1,8 @@
 import "./Home.scss"
 import profile2 from "../../assets/profile2.png"
+import linkedin from "../../assets/linkedin.png"
+import github from "../../assets/github.png"
+
 
 const Home = () => {
   return <div className = "home">
@@ -13,6 +16,12 @@ const Home = () => {
 
           <div className="description">
             WEBSITE CURRENTLY <b>UNDER CONSTRUCTION</b>
+          </div>
+
+          <div className="profiles">
+            <a href="https://www.linkedin.com/in/inakathleenchun/"><img src={linkedin} alt="" /></a>
+            <a href="https://github.com/kc224/"><img src={github} alt="" /></a>
+
           </div>
         </div>
       </div>
