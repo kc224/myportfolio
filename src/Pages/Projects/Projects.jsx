@@ -1,8 +1,9 @@
 import './Projects.scss'
 
+
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className = "test">HIIIIIIIII</div>
   )
 }
 

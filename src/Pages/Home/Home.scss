@@ -28,14 +28,18 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      font-family: 'Poppins', sans-serif;
       max-height: 10vw;
 
 
       .txt {
         font-size: 13vw !important;
-        margin-top: 0vw;
+        margin-top: 2vw;
         text-align: center;
+        font-family: 'Poppins', sans-serif;
+        
+        margin-bottom: 0rem;
+        
+
         
         filter: drop-shadow(0 6px 0 #766fa0);
         background: linear-gradient(var(--primary), var(--secondary));
@@ -45,19 +49,29 @@
       }
     }
 
-    .description {
-      position: relative;
-      font-family: 'Raleway', sans-serif;
-      font-weight: bold;
+    // .description {
+    //   position: relative;
+    //   font-family: 'Raleway', sans-serif;
+    //   font-weight: bold;
+      
       
 
-      b {
-        background: linear-gradient(var(--primary), var(--secondary));
-        -webkit-background-clip:  text;
-        background-clip: text;
-        color: transparent;
-      }
-    }
+    //   b {
+    //     background: linear-gradient(var(--primary), var(--secondary));
+    //     -webkit-background-clip:  text;
+    //     background-clip: text;
+    //     color: transparent;
+    //   }
+    // }
+
+    .typewriter {
+
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      font-size: 1.5rem;
+
+      color: black;
+  }
   }
 
   .profile-img {

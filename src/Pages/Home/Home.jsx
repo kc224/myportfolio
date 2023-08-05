@@ -1,7 +1,8 @@
-import "./Home.scss"
-import profile2 from "../../assets/profile2.png"
-import linkedin from "../../assets/linkedin.png"
-import github from "../../assets/github.png"
+import "./Home.scss";
+import profile2 from "../../assets/profile2.png";
+import linkedin from "../../assets/linkedin.png";
+import github from "../../assets/github.png";
+import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {
@@ -10,18 +11,35 @@ const Home = () => {
         <span className="intro">Hi, I'm</span >
 
         <div className="name">
-          <div>
-            <h1 className = "txt">Ina</h1>
-          </div>
+        <h1 className = "txt">Ina</h1>
 
-          <div className="description">
+          {/* <div className="description">
             WEBSITE CURRENTLY <b>UNDER CONSTRUCTION</b>
+          </div> */}
+
+          <div className="typewriter">
+            <Typewriter
+              onInit = {(typewriter) => {
+                typewriter
+                .typeString("Full-Stack Developer")
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString("Drone Pilot")
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString("Coffee Enthusiast")
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString("CS Undergrad @ Stanford")
+                .start();
+              }}
+
+            />
           </div>
 
           <div className="profiles">
             <a href="https://www.linkedin.com/in/inakathleenchun/"><img src={linkedin} alt="" /></a>
             <a href="https://github.com/kc224/"><img src={github} alt="" /></a>
-
           </div>
         </div>
       </div>

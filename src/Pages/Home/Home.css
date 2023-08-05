@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-content: center;
   flex-direction: row;
-  margin-top: 10rem;
   flex: 1;
 }
 .home .details {
@@ -13,10 +13,11 @@
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  padding-top: 10rem;
 }
 .home .details .intro {
-  font-size: 3em;
+  font-size: 3vw;
+  font-family: "Lora", serif;
+  margin-bottom: 2vw;
 }
 .home .details .name {
   position: relative;
@@ -24,29 +25,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: raleway;
+  max-height: 10vw;
 }
 .home .details .name .txt {
-  font-size: 9em;
-  margin-top: 0em;
+  font-size: 13vw !important;
+  margin-top: 2vw;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0rem;
   filter: drop-shadow(0 6px 0 #766fa0);
   background: linear-gradient(var(--primary), var(--secondary));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-.home .details .stack {
-  position: relative;
-}
-.home .details .stack b {
-  background: linear-gradient(var(--primary), var(--secondary));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.home .details .typewriter {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
 }
 .home .profile-img {
-  margin-top: 3vw;
+  margin-top: 5vw;
   margin-left: 4vw;
   position: relative;
   display: flex;
@@ -68,4 +68,11 @@
 }
 .home .profile-img img:hover {
   scale: 1.05;
+}
+.home .profiles {
+  margin-top: 2vh;
+}
+.home .profiles img {
+  height: 2vw;
+  margin: 0.5rem;
 }/*# sourceMappingURL=Home.css.map */
