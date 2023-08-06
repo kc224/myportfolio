@@ -1,3 +1,51 @@
-.test {
+.content{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 10rem;
+  justify-content: center;
+  
+
+  
+  .project {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    margin-bottom: 10%;
+
+    .project-img {
+      display: flex;
+      height: 25vw;
+      width: 25vw;
+      aspect-ratio: 1;
+      background-color: var(--primary);
+      border-radius: 30px;
+      overflow:hidden;
+      cursor: pointer;
+      border: 0.1rem solid black;
+      object-fit: cover;
+      transition: 0.3s ease;
+
+      &:hover {
+        scale:1.05;
+      }
+
+    }
+  }
+
+}
+
+.project-img.pomodoro {
+  filter: drop-shadow(0.6rem 0.6rem 0.3rem #00e5f5);
+}
+
+.project-img.laugh {
+  filter: drop-shadow(0.6rem 0.6rem 0.3rem #ffe404);
+}
+
+.project-img.stash {
+  filter: drop-shadow(0.6rem 0.6rem 0.3rem #fbb4bc);
 }

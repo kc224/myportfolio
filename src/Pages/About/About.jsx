@@ -6,9 +6,9 @@ import me from "../../assets/me.png"
 
 const About = () => {
   return (
-    <div className = "content">
+    <div className = "content2">
 
-      <div className="chunk">
+      <div className="chunk2">
         <div className="AboutMe">
           <h1 className = "txt">About Me!</h1>
           <div className="stanford about-img">
@@ -24,7 +24,7 @@ const About = () => {
       </div>
 
 
-      <div className="chunk">
+      <div className="chunk2">
         <div className="AboutMe">
           <h1 className = "txt">Outside of work...</h1>
           <div className="stanford about-img">
