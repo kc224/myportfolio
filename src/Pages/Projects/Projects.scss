@@ -14,24 +14,41 @@
     align-items: center;
     padding: 0rem;
     margin-bottom: 10%;
-
+    
     .project-img {
       display: flex;
       height: 25vw;
       width: 25vw;
       aspect-ratio: 1;
-      background-color: var(--primary);
+      background-size: cover;
+      justify-content: center;
       border-radius: 30px;
-      overflow:hidden;
+      overflow: hidden;
       cursor: pointer;
       border: 0.1rem solid black;
-      object-fit: cover;
+      object-fit: fill;
       transition: 0.3s ease;
+      margin: 0;
 
       &:hover {
         scale:1.05;
+
       }
 
+    }
+    .tryOut {
+      margin-top: 1rem;
+      background: linear-gradient(var(--primary), var(--secondary));
+      -webkit-background-clip:  text;
+      background-clip: text;
+      color: transparent;
+
+      font-family: 'Lora', serif;
+
+      &:hover {
+        scale:1.1;
+        font-weight: bold;
+      }
     }
 
     .buttons {
@@ -47,7 +64,7 @@
       .lang {
         font-family: 'Lora', serif;
         font-size: 1.3rem;
-        border-radius: 0.2rem;
+        border-radius: 0.7rem;
         padding: 0.3rem;
         border: 0.1rem solid black;
         color: black;
@@ -63,6 +80,7 @@
 }
 
 .project-img.pomodoro {
+  
   filter: drop-shadow(0.6rem 0.6rem 0.3rem #00e5f5);
 }
 
@@ -72,10 +90,7 @@
 
 .project-img.stash {
   filter: drop-shadow(0.6rem 0.6rem 0.3rem #fbb4bc);
-}
 
-.project-img.stash {
-  filter: drop-shadow(0.6rem 0.6rem 0.3rem #fbb4bc);
 }
 
 

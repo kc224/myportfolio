@@ -2,6 +2,7 @@ import "./Home.scss";
 import profile2 from "../../assets/profile2.png";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
+import email from "../../assets/email.png";
 import Typewriter from 'typewriter-effect';
 
 
@@ -22,15 +23,15 @@ const Home = () => {
               onInit = {(typewriter) => {
                 typewriter
                 .typeString("Full-Stack Developer")
-                .pauseFor(2000)
+                .pauseFor(1000)
                 .deleteAll()
                 .typeString("Drone Pilot")
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString("Coffee Enthusiast")
-                .pauseFor(2000)
+                .pauseFor(1000)
                 .deleteAll()
                 .typeString("CS Undergrad @ Stanford")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("inachun@stanford.edu")
                 .start();
               }}
 
@@ -40,6 +41,7 @@ const Home = () => {
           <div className="profiles">
             <a href="https://www.linkedin.com/in/inakathleenchun/"><img src={linkedin} alt="" /></a>
             <a href="https://github.com/kc224/"><img src={github} alt="" /></a>
+            <a href="mailto: inachun@stanford.edu"><img src={email} alt="" /></a>
           </div>
         </div>
       </div>

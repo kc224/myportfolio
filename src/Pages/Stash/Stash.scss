@@ -1,0 +1,40 @@
+.stash {
+  margin-top: 15rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: black;
+  font-family: 'Lora', serif;
+
+  .clump {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+  }
+
+  .context {
+    margin-top: 0rem;
+    font-family: 'Lora', serif;
+  } 
+
+
+  img {
+    display: flex;
+    flex-direction: row;
+    height: 25vw;
+    aspect-ratio: 1;
+    border-radius: 30px;
+    overflow:hidden;
+    padding: 1rem;
+
+    filter: drop-shadow(10px 20px 10px rgba(0,0,0,0.377));
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 5rem;
+
+
+
+  }
+}
