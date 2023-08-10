@@ -1,0 +1,17 @@
+.construct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  font-family: 'Lora', serif;
+  font-size: 2rem; 
+
+
+
+  img {
+    display: flex;
+      height: 40vw;
+      width: 40vw;
+  }
+}

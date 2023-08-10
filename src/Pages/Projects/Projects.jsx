@@ -24,7 +24,7 @@ const Projects = () => {
 
       <div className="project">
 
-        <Link to="/Stash" className="project-img stash">
+        <Link to="/construction" className="project-img stash">
             <img src={stash} alt="" />
         </Link>
         <div className="buttons">
