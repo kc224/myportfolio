@@ -1,7 +1,7 @@
 import './Projects.scss'
 import laugh from "../../assets/laugh.png"
 import stash from "../../assets/stash.png"
-import portfolio from "../../assets/portfolio.png"
+import scraper from "../../assets/scraper.jpg"
 import { Link } from "react-router-dom";
 
 
@@ -50,11 +50,12 @@ const Projects = () => {
 
 
       <div className="project">
-        <a href= "https://inachun.netlify.app/" className="project-img portfolio">
-            <img src="https://live.staticflickr.com/65535/53102424291_6186f8fab0_o.png" alt="" />
+        <a href= "https://github.com/kc224/amazon-coffee" className="project-img amazonscraper">
+            <img src={scraper} alt="" />
         </a>
         <div className="buttons">
-          <button className="lang">React</button>
+          <button className="lang">Node.js</button>
+          <button className="lang">Web Scraper</button>
         </div>
 
       </div>

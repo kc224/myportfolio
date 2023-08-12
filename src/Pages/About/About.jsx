@@ -1,14 +1,25 @@
 import './About.scss'
 import stanford from "../../assets/stanford.jpg"
 import me from "../../assets/me.png"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import storage from "../../assets/storage.png"
+import { useEffect } from "react";
+
+
 
 
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000});
+  }, []);
+
+  
   return (
     <div className = "content2">
 
-      <div className="chunk2">
+      <div className="chunk2" data-aos="fade-right">
         <div className="AboutMe">
           <h1 className = "txt">About Me!</h1>
           <div className="stanford about-img">
@@ -24,7 +35,7 @@ const About = () => {
       </div>
 
 
-      <div className="chunk2">
+      <div className="chunk2" data-aos="fade-right">
         <div className="AboutMe">
           <h1 className = "txt">Outside of work...</h1>
           <div className="stanford about-img">
@@ -43,7 +54,7 @@ const About = () => {
 
       <hr />
 
-      <div className="coursework">
+      <div className="coursework" data-aos="fade-up">
 
         <h1 className="txt">Relevant Coursework</h1>
         <p>CS 106B: Programming Abstractions</p>

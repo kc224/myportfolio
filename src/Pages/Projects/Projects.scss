@@ -80,21 +80,33 @@
 }
 
 .project-img.pomodoro {
-  
   filter: drop-shadow(0.6rem 0.6rem 0.3rem #00e5f5);
+  img {
+    object-fit: cover;
+    height: 110%;
+  }
 }
 
 .project-img.laugh {
   filter: drop-shadow(0.6rem 0.6rem 0.3rem #ffe404);
+
 }
 
 .project-img.stash {
   filter: drop-shadow(0.6rem 0.6rem 0.3rem #fbb4bc);
-
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
 }
 
 
-.project-img.portfolio {
+.project-img.amazonscraper {
   filter: drop-shadow(0.6rem 0.6rem 0.3rem var(--primary));
+  img {
+    object-fit: cover;
+    height: 110%;
+  }
+
 }
 
