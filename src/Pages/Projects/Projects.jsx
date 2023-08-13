@@ -24,7 +24,7 @@ const Projects = () => {
 
       <div className="project">
 
-        <Link to="/construction" className="project-img stash">
+        <Link to="https://stash-draft.netlify.app/" className="project-img stash">
             <img src={stash} alt="" />
         </Link>
         <div className="buttons">
