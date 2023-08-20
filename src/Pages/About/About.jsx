@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div className = "content2">
 
-      <div className="chunk2" data-aos="fade-right">
+      <div className="chunk2" data-aos="fade-right" data-aos-once="true">
         <div className="AboutMe">
           <h1 className = "txt">About Me!</h1>
           <div className="stanford about-img">
@@ -35,7 +35,7 @@ const About = () => {
       </div>
 
 
-      <div className="chunk2" data-aos="fade-right">
+      <div className="chunk2" data-aos="fade-left" data-aos-once="true">
         <div className="AboutMe">
           <h1 className = "txt">Outside of work...</h1>
           <div className="stanford about-img">
@@ -54,7 +54,7 @@ const About = () => {
 
       <hr />
 
-      <div className="coursework" data-aos="fade-up">
+      <div className="coursework" data-aos="fade-up" data-aos-once="true">
 
         <h1 className="txt">Relevant Coursework</h1>
         <p>CS 106B: Programming Abstractions</p>
