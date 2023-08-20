@@ -30,25 +30,18 @@
   .big {  
     font-size: 3rem;
   }
+
+  .big2 {
+    font-size: 2rem;
+  }
   
 
 
   img {
     display: flex;
     flex-direction: row;
-    height: 25vw;
-    aspect-ratio: 1;
-    border-radius: 30px;
-    overflow:hidden;
-    padding: 1rem;
-
-    filter: drop-shadow(10px 20px 10px rgba(0,0,0,0.377));
-    width: 20rem;
-    height: 20rem;
-    object-fit: cover;
-    margin-top: 5rem;
-
-
+    margin-top: 2rem;
+    justify-content: center;
 
   }
 }
