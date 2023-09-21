@@ -51,7 +51,6 @@ const Header = () => {
           <li className = "active"><Link to="/">Home</Link></li>
           <li><Link to="/About">About</Link></li>
           <li><Link to="/Projects">Projects</Link></li>
-          <li><Link to="/Construction">Experiences</Link></li>
         </ul>
       </nav>
 
